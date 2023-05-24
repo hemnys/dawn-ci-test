@@ -1,5 +1,8 @@
 name: CI
 on: [push]
+permissions:
+  checks: write
+
 jobs:
   theme-check:
     name: Theme Check
